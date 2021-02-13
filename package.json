@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Natours app",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "nodemon app.js"
   },
@@ -11,8 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "livereload": "^0.9.1",
-    "nodemon": "^2.0.4"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
   },
   "repository": {
     "type": "git",
